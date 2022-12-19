@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: rgb(40, 38, 36);
+}
+header {
+  /* border: 2px solid white; */
+}
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo {
+  margin-left: -17px;
+  margin-top: -43px;
+}
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8px;
+  padding: 18px;
+}
+.navbar ul li {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: wheat;
+  padding: 0 28px;
+}
+li a:hover {
+  color: orange;
+}
+.join button {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 17px;
+  padding: 7px;
+  background-color: rgb(246, 179, 53);
+  border-radius: 5px;
+}
+.join button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 37, 37);
+  color: white;
+}
+.option-more button {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 17px;
+  padding: 7px;
+  background-color: orange;
+  border-radius: 5px;
+}
+.option-more button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 37, 37);
+  color: white;
+}
+.main-1 {
+  display: flex;
+  
+}
+.main-box {
+  color: white;
+  margin: 171px;
+}
+.bg-img img {
+  height: 580px;
+  margin-right: 160px;
+}
+.join-now {
+  display: inline-block;
+}
+.join-now button {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 17px;
+  padding: 7px;
+  background-color: rgb(246, 179, 53);
+  border-radius: 15px;
+  display: inline-block;
+}
+.join-now button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 37, 37);
+  color: white;
+}
+.learn-more {
+  display: inline-block;
+}
+.learn-more button {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 17px;
+  padding: 7px;
+  background-color: orange;
+  border-radius: 15px;
+  display: inline-block;
+}
+.learn-more button:hover {
+  cursor: pointer;
+  background-color: rgb(40, 37, 37);
+  color: white;
+}
+section h1 {
+  display: flex; 
+  justify-content: center; 
+  background-color: orange;
+  color: white;
+  font-size: 2em;
+  padding: 5px;
+  border-radius: 30px;
+}
+.main-2 h1 {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+.main2-container {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 11px;
+}
+.main2-box {
+  justify-content: center; 
+  margin-left: 125px;
+  height: 222px;
+  width: 222px;
+}
+.main2-box:hover{
+  background-color: rgb(167, 112, 9);
+  color: rgb(20, 2, 2);
+}
+.main2-box img {
+  border: 2px solid yellowgreen;
+  border-radius: 100%;
+  background-color: rgb(222, 222, 14);
+  margin-left: 40px;
+}
+.main2-box p {
+  margin-left: 30px;
+  margin-right: 10px;
+  color: aliceblue;
+}
+.benef-join {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  color: aliceblue;
+  font-size: 2em;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 30px;
+}
+.main-3 {
+  display: flex;
+  background-color: rgb(37, 28, 28);
+}
+.benefit ul li {
+  display: block;
+  color: aliceblue;
+  margin: 2em;
+}
+.benef-btn button{
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 5px 181px;
+  padding: 7px;
+  background-color: rgb(246, 179, 53);
+  border-radius: 5px;
+}
+.benef-btn button:hover{
+  cursor: pointer;
+  background-color: rgb(40, 37, 37);
+  color: white;
+}
+.bg-png img {
+  margin-top: -76px;
+  margin-left: 17em;
+}
+@media (min-width: 250px) and (max-width: 500px) {
+ 
+  .main2-container  {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media (width <= 1180px){
+  header{
+    display: block;
+  }
+}
