@@ -1,2 +1,2 @@
-# JAET.code-Community
+# JaetDot-Community
 Open Community for newcomers
